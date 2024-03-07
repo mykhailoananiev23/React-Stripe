@@ -64,7 +64,6 @@ class Navbars extends React.Component {
                       <Link to="/">
                         <img
                           alt="..."
-                          src={require("assets/img/brand/argon-react.png")}
                         />
                       </Link>
                     </Col>
@@ -95,7 +94,7 @@ class Navbars extends React.Component {
                       href="#pablo"
                       onClick={(e) => e.preventDefault()}
                     >
-                     <i class="fa fa-instagram"></i>
+                     <i className="fa fa-instagram"></i>
                       <span className="nav-link-inner--text d-lg-none">
                         Profile
                       </span>
@@ -107,7 +106,7 @@ class Navbars extends React.Component {
                       href="#pablo"
                       onClick={(e) => e.preventDefault()}
                     >
-                     <i class="fa fa-instagram"></i>
+                     <i className="fa fa-instagram"></i>
                       <span className="nav-link-inner--text d-lg-none">
                         Profile
                       </span>
